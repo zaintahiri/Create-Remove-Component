@@ -10,6 +10,12 @@
 
 <!-- <button (click)="createComponent()">Create Component</button>
 <button (click)="removeComponent()">Remove Component</button> -->
-
+<!-- 
 <app-profile [pUsername]="username" ></app-profile>
-<input type="text" (keyup.enter)="changeValue()"  [(ngModel)]="bindUsername"/>
+<input type="text" (keyup.enter)="changeValue()"  [(ngModel)]="bindUsername"/> -->
+
+<button (click)="createComponent()">Create Component</button>
+<button (click)="removeComponent()">Remove Component</button>
+<app-profile>
+  <h3>The content is from parent component</h3>
+</app-profile>

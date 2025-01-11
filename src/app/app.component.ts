@@ -27,7 +27,8 @@ export class AppComponent {
 
   // this function will be called on click to load component inside the view app.Component.html
   createComponent(){
-    this.viewContainerRef.createComponent(PostListComponent);
+    // this.viewContainerRef.createComponent(PostListComponent);
+    this.viewContainerRef.createComponent(ProfileComponent);
   }
   removeComponent(){
     this.viewContainerRef.remove();
